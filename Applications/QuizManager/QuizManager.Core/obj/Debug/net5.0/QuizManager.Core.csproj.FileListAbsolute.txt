@@ -1,0 +1,15 @@
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.AssemblyInfoInputs.cache
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.AssemblyInfo.cs
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.csproj.CoreCompileInputs.cache
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\QuizManager.Core.deps.json
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\QuizManager.Core.dll
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\ref\QuizManager.Core.dll
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\QuizManager.Core.pdb
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\QuizManager.Data.dll
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\bin\Debug\net5.0\QuizManager.Data.pdb
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.csproj.AssemblyReference.cache
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.csproj.CopyComplete
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.dll
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\ref\QuizManager.Core.dll
+C:\Users\lbell\source\repos\QuizManager\QuizManager.Core\obj\Debug\net5.0\QuizManager.Core.pdb

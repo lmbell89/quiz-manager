@@ -1,0 +1,220 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lbell\\source\\repos\\QuizManager\\Test.QuizManager.Core\\Test.QuizManager.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\QuizManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\QuizManager.Core.csproj",
+        "projectName": "QuizManager.Core",
+        "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\QuizManager.Core.csproj",
+        "packagesPath": "C:\\Users\\lbell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj": {
+                "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj",
+        "projectName": "QuizManager.Data",
+        "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj",
+        "packagesPath": "C:\\Users\\lbell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\lbell\\source\\repos\\QuizManager\\Test.QuizManager.Core\\Test.QuizManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lbell\\source\\repos\\QuizManager\\Test.QuizManager.Core\\Test.QuizManager.Core.csproj",
+        "projectName": "Test.QuizManager.Core",
+        "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\Test.QuizManager.Core\\Test.QuizManager.Core.csproj",
+        "packagesPath": "C:\\Users\\lbell\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\Test.QuizManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\lbell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\QuizManager.Core.csproj": {
+                "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Core\\QuizManager.Core.csproj"
+              },
+              "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj": {
+                "projectPath": "C:\\Users\\lbell\\source\\repos\\QuizManager\\QuizManager.Data\\QuizManager.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

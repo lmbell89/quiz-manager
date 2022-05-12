@@ -1,0 +1,358 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "QuizManager.Api",
+    "version": "v1"
+  },
+  "paths": {
+    "/Question/{id}": {
+      "get": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Question"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Question": {
+      "post": {
+        "tags": [
+          "Question"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuestionDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Quiz": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "page",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string",
+              "nullable": true
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Quiz"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Quiz/{id}": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuizTitle"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Quiz/summary/{id}": {
+      "get": {
+        "tags": [
+          "Quiz"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Answer": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "questionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "isCorrect": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuestionDetails": {
+        "type": "object",
+        "properties": {
+          "quizId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "text": {
+            "type": "string",
+            "nullable": true
+          },
+          "index": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "answers": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Answer"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuizTitle": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

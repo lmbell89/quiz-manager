@@ -1,0 +1,10 @@
+.logo {
+  max-width: 500px;
+}
+
+.loginContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+}
